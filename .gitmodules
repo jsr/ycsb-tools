@@ -1,3 +1,0 @@
-[submodule "YCSB"]
-	path = YCSB
-	url = git://github.com/achille/YCSB
