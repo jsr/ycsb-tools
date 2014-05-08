@@ -1,0 +1,24 @@
+if [[ -z $url ]] 
+then
+    echo "Must specify a url in ./config" 
+    exit -1
+fi
+
+if [[ -z $threads ]] 
+then
+    echo "Must specify a thread count in ./config" 
+    exit -1
+fi 
+
+if [[ -z $dataset ]] 
+then
+    echo "Must specify a data set in ./config" 
+    exit -1 
+fi
+
+if [[ -z $seconds ]] 
+then
+    echo "Must specify seconds in ./config" 
+    exit -1 
+fi
+

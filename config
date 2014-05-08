@@ -1,0 +1,19 @@
+
+# URL of your MongoDB cluster 
+# Can use full MongoDB URL syntax supported by Java Driver 
+# http://api.mongodb.org/java/current/com/mongodb/MongoClientURI.html
+url=localhost:27017
+
+# Number of threads to run with YCSB 
+# Connection pool will automatically be set to this value too 
+threads=64
+
+# Data set to use for this test 
+# Options are: 
+# - 1, 2, 4, 8gb 
+# - 10, 20, 40, 80gb 
+# - 100, 200, 400, 800gb 
+dataset=1gb
+
+# Maximum execution time in seconds 
+seconds=60
