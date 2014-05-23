@@ -108,8 +108,6 @@ db_classname = DATABASES[database]
 options = sys.argv[3:]
 
 ycsb_command = ["java", "-cp", os.pathsep.join(find_jars(ycsb_home, database)), \
-		"-Xmx16G","-Xms16G","-XX:PermSize=512m","-XX:MaxPermSize=512m", \
-		"-XX:NewSize=1024m", "-XX:MaxNewSize=1024m", \
                 COMMANDS[sys.argv[1]]["main"], "-db", db_classname] + options
 if command:
     ycsb_command.append(command)
