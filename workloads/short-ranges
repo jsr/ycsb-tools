@@ -19,7 +19,6 @@ scanproportion=0.95
 updateproportion=0
 readproportion=0
 insertproportion=0.05
-insertorder=hashed
 
 requestdistribution=latest
 

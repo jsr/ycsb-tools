@@ -3,5 +3,4 @@ readallfields=true
 insertproportion=0.9
 readproportion=0.1
 requestdistribution=latest
-insertorder=ordered
 
