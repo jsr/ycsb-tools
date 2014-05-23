@@ -1,0 +1,4 @@
+workload=com.yahoo.ycsb.workloads.CoreWorkload
+recordcount=10000000
+insertorder=ordered
+
