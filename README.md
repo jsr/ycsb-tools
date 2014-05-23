@@ -14,10 +14,10 @@ Small wrapper around YCSB load driver that makes it easier to use.
 Usage
 ===== 
 
-# git clone this repo onto your computer 
-# edit the "config" file to match the settings you want to use 
-# ./bin/load to load your dataset into the target database 
-# ./bin/run to execute the workloads, saving output into the "output" directory 
+- git clone this repo onto your computer 
+- edit the "config" file to match the settings you want to use 
+- ./bin/load to load your dataset into the target database 
+- ./bin/run to execute the workloads, saving output into the "output" directory 
 
 
 
