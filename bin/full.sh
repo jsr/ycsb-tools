@@ -3,6 +3,8 @@ source ./lib/validate-config
 outputdir=./output/$(date +%Y-%h-%d-%H:%M)
 mkdir -p $outputdir
 
+echo "output from this job will be stored in $outputdir"
+
 workload_name=${dataset}-${threads}threads-load
 ./downloads/mongodb-linux-x86_64-2.6.0/bin/mongostat --noheaders --host $url --discover > $outputdir/${workload_name}-mongostat & 
 PID=$!

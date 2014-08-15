@@ -2,7 +2,7 @@
 # URL of your MongoDB cluster 
 # Can use full MongoDB URL syntax supported by Java Driver 
 # http://api.mongodb.org/java/current/com/mongodb/MongoClientURI.html
-url=bench4.10gen.cc:27000
+url=localhost:27017
 
 # Number of threads to run with YCSB 
 # Connection pool will automatically be set to this value too 
