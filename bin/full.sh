@@ -1,11 +1,12 @@
+name=${1-test}
 source ./config
 source ./lib/validate-config
-outputdir=./output/$(date +%Y-%h-%d-%H:%M)
+outputdir=./output/$(date +%Y-%h-%d-%H:%M)-$name
 mkdir -p $outputdir
 
 echo "Starting run phase at $(date +%Y-%h-%d-%H:%M)" 
 
-for threads in 8 16 32 64
+for threads in 16 32 64  
 do
 	for workload in update-heavy read-mostly read-only
 	do
